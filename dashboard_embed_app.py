@@ -1,24 +1,7 @@
 """
 
-    Simple Streamlit webserver application for serving developed classification
-    models.
-
-    Author: Explore Data Science Academy.
-
-    Note:
-    ---------------------------------------------------------------------
-    Plase follow the instructions provided within the README.md file
-    located within this directory for guidance on how to use this script
-    correctly.
-    ---------------------------------------------------------------------
-
-    Description: This file is used to launch a minimal streamlit web
-    application. You are expected to extend the functionality of this script
-    as part of your predict project.
-
-    For further help with the Streamlit framework, see:
-
-    https://docs.streamlit.io/en/latest/
+    Simple Streamlit webserver application for serving developed embedding
+    a dashboard visualisation in streamlit.
 
 """
 # Streamlit dependencies
@@ -37,28 +20,16 @@ import seaborn as sns
 # Set plot style for data visualisation
 sns.set()
 from PIL import Image
-#import spacy
-#nlp= spacy.load('en')
-#NLP Packages
-#from wordcloud import WordCloud
-#from textblob import TextBlob
+
 
 # Vectorizer
-#news_vectorizer = open("resources/tfidf_ndu.pkl","rb")
-#tweet_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
-#Models
-#def load_predictions_models(model_file):
-    #load_prediction_models = joblib.load(open(os.path.join(model_file),"rb"))
-    #return load_prediction_models
+
 
 #creating dict keys for predictions
-#def get_keys(val,my_dict):
-    #for key,value in my_dict.items():
-        #if val == value:
-            #return key
+
 
 # Load your raw data
-#raw = pd.read_csv("resources/train.csv")
+#raw = pd.read_...
 
 # The main function where we will build the actual app
 def main():
