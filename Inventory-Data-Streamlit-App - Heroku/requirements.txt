@@ -1,0 +1,14 @@
+streamlit
+numpy
+matplotlib
+sklearn
+seaborn
+pandas
+Pillow
+pulp
+psycopg2-binary
+plotly
+pmdarima
+statsmodels
+sqlalchemy
+pyodbc
